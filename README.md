@@ -38,6 +38,22 @@ demonstrate end-to-end data science skills using real commodity market data.
 Python, Pandas, NumPy, Matplotlib, Seaborn, Statsmodels, Scikit-learn, 
 Prophet, Requests, Jupyter Notebook
 
+## Project Workflow
+
+```mermaid
+flowchart TD
+    A[FRED API Data Collection]
+    B[Data Cleaning]
+    C[Exploratory Data Analysis]
+    D[Feature Engineering]
+    E[PACF Analysis]
+    F[Random Forest Model]
+    G[Coal Price Forecast]
+    H[Tableau Dashboard]
+
+    A --> B --> C --> D --> E --> F --> G --> H
+```
+
 ## Data Sources
 - Coal prices: World Bank via FRED API (PCOALAUUSDM)
 - Nickel prices: World Bank via FRED API (PNICKUSDM)
