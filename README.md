@@ -46,6 +46,9 @@ Prophet, Requests, Jupyter Notebook
 ## Dashboard Preview
 ![Forecast](dashboard/Mining_Analysis.png)
 
+📊 Tableau Public Dashboard:
+https://public.tableau.com/views/IndonesianCoalNickelMarketAnalysis/Dashboard1
+
 ## How to Run
 1. Clone this repo
 2. Run pip install -r requirements.txt
